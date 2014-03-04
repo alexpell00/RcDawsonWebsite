@@ -136,10 +136,30 @@ a:focus {
     -o-background-size: cover;
 }
 .about{
-    background: url(../img/robots.png) no-repeat bottom center scroll;
+    background: url(../img/blur5.jpg) no-repeat bottom center scroll;
     background-attachment:fixed;   
     background-size:100% 100%;
     
+    
+}
+.divider{
+    width: 100%;
+    height: .2em;
+    background-color: #000000;
+        
+        
+}
+.achievments{
+    background: url(../img/blueBG.png) no-repeat bottom center scroll;
+    background-attachment:fixed;   
+    background-size:100% 100%;
+}
+
+.contact{
+    background-color: rgba(50, 118, 177, 0.72);
+        
+}
+.sponsors{
     
 }
 .intro-body {
@@ -246,6 +266,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .download-section {
@@ -268,7 +289,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .download-section {
