@@ -326,7 +326,7 @@ a:focus {
     background-color: #28c3ab;
 }
 
-.btn-huge {
+.-btnhuge {
     padding: 25px;
     font-size: 26px;
 }
@@ -376,3 +376,64 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.formfield {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: none;
+    border-radius: 8px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
+
+.formhead {
+    font-size: 20px;
+}
+
+.formdivbar {
+    height:.5px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
